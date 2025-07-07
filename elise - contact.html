@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elise Photography | CONTACT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="elise-style.css">
+  
+  </style>
+</head>
+<body style="background-color: rgb(40, 40, 40);">
+
+  <nav>
+    <div class="nav-container">
+      <!-- Burger icon (only mobile) -->
+      <div class="burger" onclick="toggleMobileMenu()">☰</div>
+
+      <!-- Left nav links (desktop only) -->
+      <div class="nav-left">
+        <a href="https://ahm3dsultan.github.io/elise/" class="nav-text">Home</a>
+        <a href="#" class="nav-text">Shop</a>
+        <a href="#" class="nav-text">Events</a>
+        <a href="https://ahm3dsultan.github.io/elise/elise%20-%20about.html" class="nav-text">About</a>
+      </div>
+
+      <!-- Logo -->
+      <div class="nav-center">Elise Photography</div>
+
+      <!-- Right nav links (desktop only) -->
+      <div class="nav-right" style="justify-content: flex-end;">
+        <a href="#" class="nav-text">Contact us</a>
+        <a href="#" class="nav-text">Account</a>
+      </div>
+    </div>
+
+    <!-- Mobile dropdown menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="https://ahm3dsultan.github.io/elise/" class="nav-text">Home</a>
+      <a href="#" class="nav-text">Shop</a>
+      <a href="#" class="nav-text">Events</a>
+      <a href="https://ahm3dsultan.github.io/elise/elise%20-%20about.html" class="nav-text">About</a>
+      <a href="#" class="nav-text">Contact us</a>
+      <a href="#" class="nav-text">Account</a>
+    </div>
+  </nav>
+
+  <script>
+    function toggleMobileMenu() {
+      document.getElementById("mobileMenu").classList.toggle("active");
+    }
+  </script>
+
+
+  <h1 class="header-txt">☎️ Contact Us</h1>
+
+  <section class="contact-section">
+  <form class="contact-form">
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+    <label for="order">Order Number </span></label>
+    <input type="text" id="order" name="order" placeholder="e.g. #ON1234GB">
+
+    <label for="message">Issue Description</label>
+    <textarea id="message" name="message" placeholder="Describe your issue" rows="5" required></textarea>
+
+    <button type="submit" class="contact-btn">Send Message</button>
+  </form>
+</section>
+
+
+
+</body>
+</html>

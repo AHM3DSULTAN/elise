@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elise Photography | HOME</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="elise-style.css">
+  
+  </style>
+</head>
+<body style="background-color: rgb(40, 40, 40);">
+
+  <nav>
+    <div class="nav-container">
+      <!-- Burger icon (only mobile) -->
+      <div class="burger" onclick="toggleMobileMenu()">☰</div>
+
+      <!-- Left nav links (desktop only) -->
+      <div class="nav-left">
+        <a href="https://ahm3dsultan.github.io/elise/" class="nav-text">Home</a>
+        <a href="#" class="nav-text">Shop</a>
+        <a href="#" class="nav-text">Events</a>
+        <a href="https://ahm3dsultan.github.io/elise/elise%20-%20about.html" class="nav-text">About</a>
+      </div>
+
+      <!-- Logo -->
+      <div class="nav-center">Elise Photography</div>
+
+      <!-- Right nav links (desktop only) -->
+      <div class="nav-right" style="justify-content: flex-end;">
+        <a href="#" class="nav-text">Contact us</a>
+        <a href="#" class="nav-text">Account</a>
+      </div>
+    </div>
+
+    <!-- Mobile dropdown menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="https://ahm3dsultan.github.io/elise/" class="nav-text">Home</a>
+      <a href="#" class="nav-text">Shop</a>
+      <a href="#" class="nav-text">Events</a>
+      <a href="https://ahm3dsultan.github.io/elise/elise%20-%20about.html" class="nav-text">About</a>
+      <a href="#" class="nav-text">Contact us</a>
+      <a href="#" class="nav-text">Account</a>
+    </div>
+  </nav>
+
+  <script>
+    function toggleMobileMenu() {
+      document.getElementById("mobileMenu").classList.toggle("active");
+    }
+  </script>
+
+  <h1 class="header-txt">About me</h1>
+  <div class="about-box">Elise has a master's in photography and has since spent several years travelling the globe and documenting her travels. She is also a budding artist and has made some paintings and 3D work. She has been selling her photography work for some time in Local Galleries as framed prints but now want to move online to sell as well. Her photography has also appeared in many magazines and other media including National Geographic, Time magazine, The Daily Mail/ associated press and The Digital Photographer Magazine.</div>
+
+</body>
+</html>
