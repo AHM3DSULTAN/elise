@@ -4,47 +4,97 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Elise Photography | HOME</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="elise-style.css">
-  
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Trade+Winds&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="elise-style.css">
 </head>
-<body style="background-color: rgb(32, 25, 55);">
+<body style="background-image: url(https://i.postimg.cc/3xJbPsSJ/home-bg-img.jpg); background-size: cover;">
 
   <nav>
     <div class="nav-container">
-      <!-- Burger icon (only mobile) -->
       <div class="burger" onclick="toggleMobileMenu()">☰</div>
 
-      <!-- Left nav links (desktop only) -->
       <div class="nav-left">
-        <a href="#" class="nav-text">Home</a>
+        <a href="index.html" class="nav-text">Home</a>
         <a href="#" class="nav-text">Shop</a>
         <a href="#" class="nav-text">Events</a>
         <a href="elise - about.html" class="nav-text">About</a>
       </div>
 
-      <!-- Logo -->
       <div class="nav-center">Elise Photography</div>
 
-      <!-- Right nav links (desktop only) -->
-      <div class="nav-right" style="justify-content: flex-end;">
-        <a href="https://ahm3dsultan.github.io/elise/elise%20-%20contact.html" class="nav-text">Contact us</a>
-        <a href="#" class="nav-text">Account</a>
+      <div class="nav-right">
+        <a href="#" class="nav-text">🧺 Basket</a>
+        <a href="elise - contact.html" class="nav-text"> ☎️ Contact us</a>
+        <a href="#" class="nav-text"> 👲 Account</a>
       </div>
     </div>
 
-    <!-- Mobile dropdown menu -->
     <div class="mobile-menu" id="mobileMenu">
-      <a href="#" class="nav-text">Home</a>
+      <a href="index.html" class="nav-text">Home</a>
       <a href="#" class="nav-text">Shop</a>
       <a href="#" class="nav-text">Events</a>
-      <a href="#" class="nav-text">About</a>
-      <a href="https://ahm3dsultan.github.io/elise/elise%20-%20contact.html" class="nav-text">Contact us</a>
-      <a href="#" class="nav-text">Account</a>
+      <a href="elise - about.html" class="nav-text">About</a>
+      <a href="#" class="nav-text">🧺 Basket</a>
+        <a href="elise - contact.html" class="nav-text"> ☎️ Contact us</a>
+        <a href="#" class="nav-text"> 👲 Account</a>
     </div>
   </nav>
+
+  <h1 class="trending-txt">🔥 Trending this week</h1>
+
+  <div class="trending-container">
+    <div class="trending-box">
+      <img 
+        class="tr-img" 
+        src="https://i.postimg.cc/SRpNtsnB/Zs-Yda1-XFEW2-Ov-Uv-Amy-0-O5-QWL0-AA0m-APR9twa-WZ-kq-A.webp"
+        alt="18th Century gathering scene"
+      >
+      <div class="trend-text">
+        <h1 class="trend-title">18th Century Ultimate</h1>
+        <p class="trend-details">
+          Add a touch of timeless elegance to your space with this captivating vintage scene — a lively gathering around a grand piano, set in a richly adorned 19th-century parlor. Perfect for lovers of history, music, and classic art, this piece brings warmth, charm, and storytelling into any room. A true conversation starter and a must-have for your collection!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="trending-txt">✨ Best Sellers this month</h1>
+  <div class="best-sellers-container">
+  <div class="best-seller-box">
+    <img src="https://i.postimg.cc/DZ9YbmPx/C-Country-Barns.jpg" alt="Product" class="best-seller-image" />
+    <div class="best-seller-info">
+      <div>
+        <div class="best-seller-title">County Barns Masterpeice</div>
+        <div class="best-seller-price">£1,299</div>
+      </div>
+      <button class="basket-button">Add to basket</button>
+    </div>
+  </div>
+  <div class="best-sellers-container">
+  <div class="best-seller-box">
+    <img src="https://i.postimg.cc/ydjy7drJ/istockphoto-161844880-612x612.jpg" alt="Product" class="best-seller-image" />
+    <div class="best-seller-info">
+      <div>
+        <div class="best-seller-title">Château d Ombrage</div>
+        <div class="best-seller-price">£989.99</div>
+      </div>
+      <button class="basket-button">Add to basket</button>
+    </div>
+  </div>
+  <div class="best-sellers-container">
+  <div class="best-seller-box">
+    <img src="https://i.postimg.cc/ncFcsLSF/nature-artwork-1024x512.jpg" alt="Product" class="best-seller-image" />
+    <div class="best-seller-info">
+      <div>
+        <div class="best-seller-title">Vibrant Nature</div>
+        <div class="best-seller-price">£669.99</div>
+      </div>
+      <button class="basket-button">Add to basket</button>
+    </div>
+  </div>
+  <!-- Repeat for more boxes -->
+</div>
+
 
   <script>
     function toggleMobileMenu() {
@@ -52,13 +102,5 @@
     }
   </script>
 
-<h1 class="trending-txt">🔥 Trending Now</h1>
-<div class="trending-container">
-  <div class="trending-box">
-    <img class="tr-img" src="https://i.postimg.cc/SRpNtsnB/Zs-Yda1-XFEW2-Ov-Uv-Amy-0-O5-QWL0-AA0m-APR9twa-WZ-kq-A.webp">
-    <h1 class="trend-title">18th Century Ultimate</h1>
-    <p class="trend-details">Add a touch of timeless elegance to your space with this captivating vintage scene — a lively gathering around a grand piano, set in a richly adorned 19th-century parlor. Perfect for lovers of history, music, and classic art, this piece brings warmth, charm, and storytelling into any room. A true conversation starter and a must-have for your collection!</p>
-  </div>
-</div>
 </body>
 </html>
